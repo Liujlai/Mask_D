@@ -9,19 +9,24 @@
 /* Begin PBXBuildFile section */
 		782A85F6212A676F00951792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A85F5212A676F00951792 /* AppDelegate.swift */; };
 		782A85F8212A676F00951792 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A85F7212A676F00951792 /* ViewController.swift */; };
-		782A85FB212A676F00951792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782A85F9212A676F00951792 /* Main.storyboard */; };
 		782A85FD212A677100951792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782A85FC212A677100951792 /* Assets.xcassets */; };
-		782A8600212A677100951792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782A85FE212A677100951792 /* LaunchScreen.storyboard */; };
+		782A860C212AC00C00951792 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A860B212AC00C00951792 /* AViewController.swift */; };
+		78A07A3B212BF0D9002CD5BE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 782A8601212A677100951792 /* Info.plist */; };
+		78A07A3C212BF11C002CD5BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782A85FE212A677100951792 /* LaunchScreen.storyboard */; };
+		78A07A3D212BF11F002CD5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782A85F9212A676F00951792 /* Main.storyboard */; };
+		78BA0E06212FA5C000145C12 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BA0E05212FA5C000145C12 /* BViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		782A85F2212A676F00951792 /* ClassOrStruct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassOrStruct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		782A85F2212A676F00951792 /* Mask_D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mask_D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		782A85F5212A676F00951792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		782A85F7212A676F00951792 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		782A85FA212A676F00951792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		782A85FC212A677100951792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		782A85FF212A677100951792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		782A8601212A677100951792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782A860B212AC00C00951792 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		78BA0E05212FA5C000145C12 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +43,7 @@
 		782A85E9212A676F00951792 = {
 			isa = PBXGroup;
 			children = (
-				782A85F4212A676F00951792 /* ClassOrStruct */,
+				782A85F4212A676F00951792 /* Mask_D */,
 				782A85F3212A676F00951792 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +51,32 @@
 		782A85F3212A676F00951792 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				782A85F2212A676F00951792 /* ClassOrStruct.app */,
+				782A85F2212A676F00951792 /* Mask_D.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		782A85F4212A676F00951792 /* ClassOrStruct */ = {
+		782A85F4212A676F00951792 /* Mask_D */ = {
 			isa = PBXGroup;
 			children = (
 				782A85F5212A676F00951792 /* AppDelegate.swift */,
 				782A85F7212A676F00951792 /* ViewController.swift */,
+				782A860B212AC00C00951792 /* AViewController.swift */,
+				78BA0E05212FA5C000145C12 /* BViewController.swift */,
 				782A85F9212A676F00951792 /* Main.storyboard */,
 				782A85FC212A677100951792 /* Assets.xcassets */,
 				782A85FE212A677100951792 /* LaunchScreen.storyboard */,
 				782A8601212A677100951792 /* Info.plist */,
 			);
-			path = ClassOrStruct;
+			path = Mask_D;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		782A85F1212A676F00951792 /* ClassOrStruct */ = {
+		782A85F1212A676F00951792 /* Mask_D */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 782A8604212A677100951792 /* Build configuration list for PBXNativeTarget "ClassOrStruct" */;
+			buildConfigurationList = 782A8604212A677100951792 /* Build configuration list for PBXNativeTarget "Mask_D" */;
 			buildPhases = (
 				782A85EE212A676F00951792 /* Sources */,
 				782A85EF212A676F00951792 /* Frameworks */,
@@ -79,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = ClassOrStruct;
+			name = Mask_D;
 			productName = ClassOrStruct;
-			productReference = 782A85F2212A676F00951792 /* ClassOrStruct.app */;
+			productReference = 782A85F2212A676F00951792 /* Mask_D.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 782A85ED212A676F00951792 /* Build configuration list for PBXProject "ClassOrStruct" */;
+			buildConfigurationList = 782A85ED212A676F00951792 /* Build configuration list for PBXProject "Mask_D" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				782A85F1212A676F00951792 /* ClassOrStruct */,
+				782A85F1212A676F00951792 /* Mask_D */,
 			);
 		};
 /* End PBXProject section */
@@ -122,9 +129,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782A8600212A677100951792 /* LaunchScreen.storyboard in Resources */,
+				78A07A3D212BF11F002CD5BE /* Main.storyboard in Resources */,
+				78A07A3C212BF11C002CD5BE /* LaunchScreen.storyboard in Resources */,
+				78A07A3B212BF0D9002CD5BE /* Info.plist in Resources */,
 				782A85FD212A677100951792 /* Assets.xcassets in Resources */,
-				782A85FB212A676F00951792 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				782A85F8212A676F00951792 /* ViewController.swift in Sources */,
+				78BA0E06212FA5C000145C12 /* BViewController.swift in Sources */,
 				782A85F6212A676F00951792 /* AppDelegate.swift in Sources */,
+				782A860C212AC00C00951792 /* AViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,13 +290,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ClassOrStruct/Info.plist;
+				DEVELOPMENT_TEAM = 7T5NXR7M3P;
+				INFOPLIST_FILE = Mask_D/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.youlu.ClassOrStruct;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youlu.Mask_D;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,13 +309,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ClassOrStruct/Info.plist;
+				DEVELOPMENT_TEAM = 7T5NXR7M3P;
+				INFOPLIST_FILE = Mask_D/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.youlu.ClassOrStruct;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youlu.Mask_D;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		782A85ED212A676F00951792 /* Build configuration list for PBXProject "ClassOrStruct" */ = {
+		782A85ED212A676F00951792 /* Build configuration list for PBXProject "Mask_D" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				782A8602212A677100951792 /* Debug */,
@@ -322,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		782A8604212A677100951792 /* Build configuration list for PBXNativeTarget "ClassOrStruct" */ = {
+		782A8604212A677100951792 /* Build configuration list for PBXNativeTarget "Mask_D" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				782A8605212A677100951792 /* Debug */,

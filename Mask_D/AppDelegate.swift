@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ClassOrStruct
+//  Mask_D
 //
 //  Created by idea on 2018/8/20.
 //  Copyright © 2018年 idea. All rights reserved.
